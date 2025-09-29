@@ -1,16 +1,3 @@
-/* En este archivo encontrarás todos los comandos ejecutados en SQL durante el desarrollo del curso de consultas SQL.
-
-Te invitamos a descargar e instalar MySQL de acuerdo con el video 1.2-Preparando el ambiente. */
-
-
-/* PROYECTO DEL AULA ANTERIOR 1 
-
-A partir de ahora, estás listo para ejecutar los comandos que instruiremos durante el Aula 2. ¡Te deseamos éxitos en tus estudios!*/
-
-
-/* PROYECTO DEL AULA ANTERIOR 2 
-
-Los comandos vistos en el aula anterior fueron los siguientes:*/
 
 /* REVISANDO CONSULTAS */
 
@@ -78,8 +65,6 @@ SELECT * FROM tabla_de_productos WHERE SABOR LIKE '%manzana';
 SELECT * FROM tabla_de_productos WHERE SABOR LIKE '%manzana'
 AND ENVASE = 'Botella PET';
 
-/* PROYECTO DEL AULA ANTERIOR 3 
-Los comandos vistos en el aula anterior fueron los siguientes:*/
 
 /* CONSULTAS DISTINCT */
 
@@ -211,8 +196,6 @@ CASE
 END
 ORDER BY ENVASE;
 
-/* PROYECTO DEL AULA ANTERIOR 4 
-Los comandos vistos en el aula anterior fueron los siguientes:*/
 
 /* CONSULTAS INNER JOIN */
 
@@ -381,9 +364,6 @@ INNER JOIN
 vw_envases_grandes B
 ON A.ENVASE = B.ENVASE;
 
-/* PROYECTO DEL AULA ANTERIOR 5 
-
-Los comandos vistos en el aula anterior fueron los siguientes:*/
 
 /* FUNCIONES STRING */
 
@@ -462,6 +442,7 @@ DATE_FORMAT(CURRENT_TIMESTAMP(),"%W, %d/%m/%Y a las %T" )) AS RESULTADO;
 SELECT CONVERT(23.45, CHAR) AS RESULTADO;
 
 SELECT SUBSTRING(CONVERT(23.45, CHAR),3,1) AS RESULTADO;
+
 
 /* ****PROYECTO FINAL**** */
 
